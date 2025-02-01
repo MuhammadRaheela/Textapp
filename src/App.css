@@ -1,0 +1,59 @@
+.fff{
+  background-color: rgb(245, 0, 0);
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.heading{
+
+  color: rgb(0, 0, 0);
+}
+.heading:hover{
+  color: burlywood;
+  cursor: pointer;
+}
+#mytext{
+ color: rgb(0, 0, 0);
+}
+#mytext .value{
+  color: beige;
+}
+#ok{
+  background-color: rgb(231, 209, 209);
+}
+.box{
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: 2px solid gray;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 500px;
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: lightyellow;
+}
+.heading2{
+  font-size: 20px;
+
+  color: rgb(255, 166, 0);
+  background-color: lightyellow;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn{
+  margin: 5px;
+}
+.form-check-label{
+  margin-left: 800px;
+  color: rgb(4, 226, 255);
+}
+@media (max-width: 700px) {
+  .form-check-label {
+    margin-left: 0;
+  }
+}
