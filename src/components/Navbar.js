@@ -31,16 +31,6 @@ export default function Navbar(props) {
                 {props.About}
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/services">
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                Contact
-              </a>
-            </li>
           </ul>
           <div className="form-check form-switch">
             <input className="form-check-input" onClick={props.togglemode}type="checkbox" role="switch" id="flexSwitchCheckDefault" />
@@ -52,15 +42,4 @@ export default function Navbar(props) {
 
   )
 }
-
-// Navbar.defaultProps = {
-//   title: 'Set ok',
-//   About: 'cgcydhuc',
-// };
-
-// Navbar.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   About: PropTypes.string.isRequired,
-// };
-
 

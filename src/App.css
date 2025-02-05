@@ -1,4 +1,4 @@
-.fff{
+/* .fff{
   background-color: rgb(245, 0, 0);
 }
 body{
@@ -7,6 +7,7 @@ body{
 .heading{
 
   color: rgb(0, 0, 0);
+  margin-top: 15px;
 }
 .heading:hover{
   color: burlywood;
@@ -55,5 +56,87 @@ body{
 @media (max-width: 700px) {
   .form-check-label {
     margin-left: 0;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* App.css */
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+  color: #007bff; /* Active link color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3; /* Hover link color */
+}
+
+/* Dark mode toggle switch */
+.form-check-label {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+/* Add responsiveness if needed */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
